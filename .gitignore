@@ -1,0 +1,42 @@
+# ---------- 运行时数据（不随代码入库） ----------
+batchcut/data/state.json
+batchcut/data/state.json.*
+batchcut/data/output/*
+batchcut/data/posters/*
+batchcut/data/uploads/*
+!batchcut/data/output/.gitkeep
+!batchcut/data/posters/.gitkeep
+!batchcut/data/uploads/.gitkeep
+
+# ---------- 内置二进制（体积大，用 tools/fetch_ffmpeg.py 获取） ----------
+batchcut/tools/ffmpeg.exe
+batchcut/tools/ffmpeg
+batchcut/tools/ffprobe.exe
+batchcut/tools/ffprobe
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pylibs/
+_bootstrap/
+
+# ---------- 本地临时目录 ----------
+_t2/
+_t/
+_v4/
+_build/
+_frames/
+_test/
+_probe.jpg
+_ui.js
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 工作台元数据 ----------
+.workbuddy/
